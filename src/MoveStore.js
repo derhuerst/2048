@@ -1,7 +1,7 @@
 const assert = require('assert');
 
 const EventEmitter = require('voltrevo-event-emitter');
-const memoize = require('lodash.memoize');
+const memoize = require('lodash/memoize');
 
 const range = require('./range.js');
 
